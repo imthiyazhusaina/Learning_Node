@@ -101,14 +101,14 @@ for (const arg of args) {
 ## Execute the Program
 
 ```bash
-node Greet.js Husain HHHH
+node Greet.js Imthiyaz Husain
 ```
 
 **Output**
 
 ```text
+Hii Imthiyaz
 Hii Husain
-Hii HHHH
 ```
 
 ---
@@ -118,7 +118,7 @@ Hii HHHH
 When you execute:
 
 ```bash
-node Greet.js Husain HHHH
+node Greet.js Imthiyaz Husain
 ```
 
 Node.js automatically stores all command-line arguments inside `process.argv`.
@@ -127,8 +127,8 @@ Node.js automatically stores all command-line arguments inside `process.argv`.
 [
   "/usr/local/bin/node", // Index 0 - Node.js executable path
   "/path/to/Greet.js",   // Index 1 - JavaScript file path
-  "Husain",              // Index 2
-  "HHHH"                 // Index 3
+  "Imthiyaz",              // Index 2
+  "Husain"                 // Index 3
 ]
 ```
 
@@ -141,7 +141,7 @@ const args = process.argv.slice(2);
 removes the first two elements and returns only the user-provided arguments:
 
 ```javascript
-["Husain", "HHHH"]
+["Imthiyaz", "Husain"]
 ```
 
 This makes it easier to process only the values passed by the user.
