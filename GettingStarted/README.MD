@@ -3,7 +3,7 @@
 ## Download Node.js
 
 - Download Node.js from the official website:
-  https://nodejs.org/
+  https://nodejs.org/en/download
 
 ## Verify Installation
 
